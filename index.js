@@ -3,5 +3,6 @@ let header = document.querySelector("main#main");
 header.remove();
 
 let newHeader = document.createElement('h1');
-let x = newHeader.createElement('victory');
+newHeader.id = 'victory'
+newHeader.innerHTML = ''
 document.appendChild(newHeader);
