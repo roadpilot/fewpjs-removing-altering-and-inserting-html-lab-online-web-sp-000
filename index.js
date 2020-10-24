@@ -2,5 +2,5 @@
 let header = document.querySelector("main#main");
 header.remove();
 
-let newHeader = 
+let newHeader = document.createElement('h1');
 document.appendChild(newHeader);
