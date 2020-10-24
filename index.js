@@ -1,3 +1,3 @@
 // Write your code here!
-let header = document.getElementById("main#main");
+let header = document.querySelector("main#main");
 header.remove();
